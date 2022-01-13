@@ -1,0 +1,10 @@
+# virtual application development environment
+using base os ubuntu
+
+MAINTAINER KADALI SATYA KARTHIK <karthikkadali362@gmail.com>
+
+RUN CMD <sudo apt-update>
+
+RUN CMD <Sudo apt install docker.io>
+
+Docker installation is completed 
