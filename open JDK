@@ -1,0 +1,12 @@
+# virtual application development environment
+using base os ubuntu
+
+MAINTAINER  KADALI SATYA KARTHIK <karthikkadali362@gmail.com>
+
+RUN CMD <sudo apt-update>
+
+RUN CMD <sudo apt-get update default.jre>
+
+RUN CMD <sudo apt-get install default.jdk>
+
+open JDK has been succesfully installed 
