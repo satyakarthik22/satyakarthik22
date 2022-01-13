@@ -1,0 +1,12 @@
+# virtual application development environment
+using base os ubuntu
+
+MAINTAINER  KADALI SATYA KARTHIK karthikkadali362@gmail.com>
+
+RUN CMD <sudo apt-get update>
+
+RUN CMD <sudo apt install default-jre>
+
+RUN CMD <sudo snap install --classic eclipse>
+
+// eclipse IDE succefully installed and can be managed through ubuntu pacakages
