@@ -1,0 +1,14 @@
+# virtual application development environment
+using base os ubuntu
+
+MAINTAINER  KADALI SATYA KARTHIK <karthikkadali362@gmail.com>
+
+RUN CMD <sudo apt install software-properties-common>
+
+RUN CMD <sudo add-apt-repository -y ppa:ethereum/ethereum>
+
+RUM CMD <sudo apt update>
+
+RUN CMD <sudo apt install ethereum>
+
+// Ethereum succesfully installed
